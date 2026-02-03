@@ -84,6 +84,8 @@ header {
 
 
 
+
+
 /*
     #3 
     Au survol des sections, mettre une ombre interne aux boutons :
@@ -96,11 +98,21 @@ header {
             https://www.alsacreations.com/tuto/lire/1338-css3-box-shadow-ombre.html
 */
 
+.bouton1:hover{
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.4) inset;
 
+}
+
+.bouton2:hover{
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.4) inset;
+
+}
 
 .bouton1 {
   display: flex;
   justify-content: space-between;
+  background-image:linear-gradient(160deg,#c62828 50%,#f44336 100%);
+  
 
   /*
         #4 
