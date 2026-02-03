@@ -129,6 +129,7 @@ header {
 .bouton2 {
   display: flex;
   justify-content: center;
+  background-image: linear-gradient(#a7cedd , #265488);
 
   /*
         #5
